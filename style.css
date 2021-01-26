@@ -350,38 +350,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-@-webkit-keyframes fadeInRight {
-  0% {
-	opacity: 0;
-	left: 20%;
-  }
-  100% {
-	opacity: 1;
-	left: 0;
-  }
-}
-
-@-moz-keyframes fadeInRight {
-  0% {
-	opacity: 0;
-	left: 20%;
-  }
-  100% {
-	opacity: 1;
-	left: 0;
-  }
-}
-
-@-ms-keyframes fadeInRight {
-  0% {
-	opacity: 0;
-	left: 20%;
-  }
-  100% {
-	opacity: 1;
-	left: 0;
-  }
-}
 
 /* 05 ABOUT SETTINGS
 --------------------------------------------------------------- */
@@ -589,3 +557,16 @@ footer p {
 	}
 	.left { padding: 0 0 15px 0;}
 }
+
+/* instagram */
+
+.eapps-instagram-feed-posts-view{    
+    width: 75%!important;
+	margin: 0 auto!important;
+}
+
+.eapps-instagram-feed-posts-grid-load-more{
+	background-color:grey!important;
+}
+
+.eapps-link a{display: none!important;}
