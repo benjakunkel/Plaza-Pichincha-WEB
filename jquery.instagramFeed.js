@@ -16,7 +16,7 @@
         'margin': 0.5,
         'image_size': 640,
         'lazy_load': false,
-        'cache_time': 99960,
+        'cache_time': 99999,
         'on_error': console.error
     };
     var image_sizes = {
@@ -73,7 +73,7 @@
                 try {
                     data = data.split("window._sharedData = ")[1].split("<\/script>")[0];
                 } catch (e) {
-                    options.on_error("Instagram Feed: It looks like the profile you are trying to fetch is age restricted. See https://github.com/jsanahuja/InstagramFeed/issues/26", 3);
+                    options.on_error("Error en la aplicacion instagram feed.", 3);
                     return;
                 }
                 data = JSON.parse(data.substr(0, data.length - 1));
@@ -87,7 +87,7 @@
                         skipCaching = true;
                     }
 
-                    options.on_error("Instagram Feed: Your network has been temporary banned by Instagram because of too many requests. Consider increasing your 'cache_time'. See https://github.com/jsanahuja/jquery.instagramFeed/issues/25 and https://github.com/jsanahuja/jquery.instagramFeed/issues/101", 4);
+                    options.on_error("No es posible cargar el feed de instagram. Baneo temporal a usuario por sobrecarga de request", 4);
                     if (!data) return;
                 }
                 if (!skipCaching && options.cache_time > 0) {
@@ -225,7 +225,7 @@
 
         var options = $.fn.extend({}, defaults, opts);
         if (options.username == "" && options.tag == "") {
-            options.on_error("Instagram Feed: Error, no username nor tag defined.", 1);
+            options.on_error("No hay nombre de usuario en la aplicacion feed", 1);
             return false;
         }
         if (typeof options.get_data !== "undefined") {
