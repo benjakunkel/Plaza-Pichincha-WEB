@@ -364,3 +364,8 @@ footer p {
     font-size: 18px;
     padding: 4px 43px;
 }
+.paseo-div{
+	font-size: 40px;
+	position: relative;
+	top: 50%;
+}
