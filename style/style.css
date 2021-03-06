@@ -373,7 +373,6 @@ footer p {
 	position: relative;
 	top: 50%;
 }
-
 .logo{
 	width: 8%;
 	position: absolute;
@@ -386,4 +385,10 @@ footer p {
 	position: absolute;
 	top: 85%;
 	left: 66%;}
+}
+.menu-section{
+	margin-top: 40px;
+}
+.map-section{
+	margin-top:40px;
 }
