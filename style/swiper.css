@@ -1,5 +1,11 @@
 .img-swipper-size{
   width: 100%;
   height: 550px;
-  object-fit: cover;
+  object-fit: fill;
+}
+.effect-brig{
+  filter: brightness(80%);
+}
+.effect-brig:hover{
+  filter: brightness(100%);
 }
