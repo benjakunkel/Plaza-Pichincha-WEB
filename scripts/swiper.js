@@ -6,13 +6,11 @@ $(document).ready(function () {
     });
     const carnes = new Swiper('.swiper-carnes', {
       loop: true,
-      speed: 1000,
     });
     const pizza = new Swiper('.swiper-pizza', {
       loop: true
     });
     const pinchos = new Swiper('.swiper-pinchos', {
-      autoResize:true,
       loop: true
     });
 
