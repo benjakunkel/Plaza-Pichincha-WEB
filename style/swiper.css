@@ -1,11 +1,34 @@
 .img-swipper-size{
   width: 100%;
   height: 550px;
-  object-fit: fill;
+  
 }
 .effect-brig{
   filter: brightness(80%);
 }
 .effect-brig:hover{
   filter: brightness(100%);
+}
+
+.swiper-title-1-r{
+  position: absolute;
+  z-index: 999;
+  color: WHITE;
+  font-size: 36px;
+  opacity: 1;
+  width: 100%;
+  top: 86%;
+}
+
+.swiper-title-2-r{
+  position: absolute;
+  z-index: 999;
+  color: WHITE;
+  font-size: 36px;
+  opacity: 1;
+  width: 100%;
+  top: 78%;
+}
+.hidden{
+  z-index: 0!important;
 }
