@@ -26,10 +26,7 @@ $(document).ready(function () {
       loop: true
     });
     
-
-
     //EVENTS
-
     //asiatica
     $(".swiper-asiatica").mouseenter(function() {
       asiatica.autoplay.start();
