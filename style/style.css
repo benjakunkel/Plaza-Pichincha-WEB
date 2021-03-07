@@ -361,11 +361,12 @@ footer p {
 }
 
 .menu-carta-btn{
-	background: gray;
-    border-radius: 30px;
     color: white;
-    font-size: 18px;
-    padding: 4px 43px;
+    font-size: 40px;
+    text-decoration: underline;
+    color: black;
+    position: relative;
+    top: 35%;
 }
 .paseo-div{
 	font-size: 40px;
@@ -397,4 +398,10 @@ footer p {
 }
 .h-fix{
 	margin-bottom:-4px!important;
+}
+.carta-section{
+	margin-top: 10px;
+	background-color: lightgrey;
+	background-size: cover;
+	height: 30vh;
 }
