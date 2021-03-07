@@ -1,6 +1,4 @@
-$(document).ready(function () {
-    
-  // SWIPERS
+// SWIPERS
     const asiatica = new Swiper('.swiper-asiatica', {
       loop: true
     });
@@ -24,10 +22,9 @@ $(document).ready(function () {
 
     const coct = new Swiper('.swiper-coct', {
       loop: true
-    });
-    
-    //EVENTS
-    //asiatica
+    });  
+//EVENTS
+  //asiatica
     $(".swiper-asiatica").mouseenter(function() {
       asiatica.autoplay.start();
       $(".swiper-asiatica .swiper-title-1-r").addClass("hidden");
@@ -36,8 +33,8 @@ $(document).ready(function () {
       asiatica.autoplay.stop();
       $(".swiper-asiatica .swiper-title-1-r").removeClass("hidden");
     });
-    
-    //carnes
+   
+  //carnes
     $(".swiper-carnes").mouseenter(function() {
       carnes.autoplay.start();
       $(".swiper-carnes .swiper-title-1-r").addClass("hidden");
@@ -47,8 +44,7 @@ $(document).ready(function () {
       $(".swiper-carnes .swiper-title-1-r").removeClass("hidden");
     });
     
-
-    //pizza
+  //pizza
     $(".swiper-pizza").mouseenter(function() {
       pizza.autoplay.start();
       $(".swiper-pizza .swiper-title-2-r").addClass("hidden");
@@ -58,8 +54,7 @@ $(document).ready(function () {
       $(".swiper-pizza .swiper-title-2-r").removeClass("hidden");
     });
     
-
-    //pinchos
+  //pinchos
     $(".swiper-pinchos").mouseenter(function() {
       pinchos.autoplay.start();
       $(".swiper-pinchos .swiper-title-1-r").addClass("hidden");
@@ -69,7 +64,7 @@ $(document).ready(function () {
       $(".swiper-pinchos .swiper-title-1-r").removeClass("hidden");
     });
 
-     //papas
+  //papas
     $(".swiper-papas").mouseenter(function() {
       papas.autoplay.start();
       $(".swiper-papas .swiper-title-2-r").addClass("hidden");
@@ -79,7 +74,7 @@ $(document).ready(function () {
       $(".swiper-papas .swiper-title-2-r").removeClass("hidden");
     });
 
-    //helados
+  //helados
     $(".swiper-helados").mouseenter(function() {
       helados.autoplay.start();
       $(".swiper-helados .swiper-title-2-r").addClass("hidden");
@@ -89,7 +84,7 @@ $(document).ready(function () {
       $(".swiper-helados .swiper-title-2-r").removeClass("hidden");
     });
 
-    //coct
+  //coct
     $(".swiper-coct").mouseenter(function() {
       coct.autoplay.start();
       $(".swiper-coct .swiper-title-1-r").addClass("hidden");
@@ -98,4 +93,3 @@ $(document).ready(function () {
       coct.autoplay.stop();
       $(".swiper-coct .swiper-title-1-r").removeClass("hidden");
     });
-})
