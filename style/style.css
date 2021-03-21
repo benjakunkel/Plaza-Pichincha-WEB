@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -25,7 +25,7 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -212,7 +212,7 @@ h1, h2, h3, h4, h5, h6 {
 	flex: 0 0 31.5%;
 	-webkit-flex: 0 0 31.5%;
 	border-left: 1px solid #e1e1e1;
-	border-right: 1px solid #e1e1e1;	
+	border-right: 1px solid #e1e1e1;
 }
 
 .info div:first-child,
@@ -307,18 +307,18 @@ footer p {
 
 	.section_subtitle { margin: 0 0 30px 0; }
 	#about, #contact { padding: 80px 25px; }
-	
+
 	#portfolio { padding: 80px 25px 65px; }
-	
+
 	.works article {
 		flex: 0 0 48%;
 		-webkit-flex: 0 0 48%;
 		margin: 0 0 15px;
 	}
-	
+
 	.featherlight .featherlight-close-icon { top: -20px !important; }
 	.featherlight-iframe .featherlight-content { width: 65% !important; }
-	
+
 	.container_footer { padding: 60px 25px; }
 
 	#welcome{
@@ -331,7 +331,7 @@ footer p {
 		flex: 0 0 100%;
 		-webkit-flex: 0 0 100%;
 	}
-	
+
 	.info div {
 		flex: 0 0 100%;
 		-webkit-flex: 0 0 100%;
@@ -341,13 +341,13 @@ footer p {
 		border-bottom: 1px solid #e1e1e1;
 		border-top: 1px solid #e1e1e1;
 	}
-	
+
 	.info div:first-child { padding-top: 0;}
 
 	.info div:last-child { padding-bottom: 0;}
 
 	.info { margin: 0 0 35px 0; }
-		
+
 	.social { max-width: 200px; }
 }
 

@@ -22,7 +22,7 @@
 
     const coct = new Swiper('.swiper-coct', {
       loop: true
-    });  
+    });
 //EVENTS
   //asiatica
     $(".swiper-asiatica").mouseenter(function() {
@@ -33,7 +33,7 @@
       asiatica.autoplay.stop();
       $(".swiper-asiatica .swiper-title-1-r").removeClass("hidden");
     });
-   
+
   //carnes
     $(".swiper-carnes").mouseenter(function() {
       carnes.autoplay.start();
@@ -43,17 +43,17 @@
       carnes.autoplay.stop();
       $(".swiper-carnes .swiper-title-1-r").removeClass("hidden");
     });
-    
+
   //pizza
     $(".swiper-pizza").mouseenter(function() {
       pizza.autoplay.start();
       $(".swiper-pizza .swiper-title-2-r").addClass("hidden");
-    }); 
+    });
     $(".swiper-pizza").mouseleave(function() {
       pizza.autoplay.stop();
       $(".swiper-pizza .swiper-title-2-r").removeClass("hidden");
     });
-    
+
   //pinchos
     $(".swiper-pinchos").mouseenter(function() {
       pinchos.autoplay.start();
@@ -88,7 +88,7 @@
     $(".swiper-coct").mouseenter(function() {
       coct.autoplay.start();
       $(".swiper-coct .swiper-title-1-r").addClass("hidden");
-    }); 
+    });
     $(".swiper-coct").mouseleave(function() {
       coct.autoplay.stop();
       $(".swiper-coct .swiper-title-1-r").removeClass("hidden");
