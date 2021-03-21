@@ -1,27 +1,27 @@
 // SWIPERS
     const asiatica = new Swiper('.swiper-asiatica', {
-      loop: true
+      loop: true,
     });
     const carnes = new Swiper('.swiper-carnes', {
       loop: true,
     });
     const pizza = new Swiper('.swiper-pizza', {
-      loop: true
+      loop: true,
     });
     const pinchos = new Swiper('.swiper-pinchos', {
-      loop: true
+      loop: true,
     });
 
     const papas = new Swiper('.swiper-papas', {
-      loop: true
+      loop: true,
     });
 
     const helados = new Swiper('.swiper-helados', {
-      loop: true
+      loop: true,
     });
 
     const coct = new Swiper('.swiper-coct', {
-      loop: true
+      loop: true,
     });
 //EVENTS
   //asiatica
